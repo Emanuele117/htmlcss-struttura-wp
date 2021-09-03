@@ -29,23 +29,26 @@ header {
     height: 40px;
     background-color: lightblue;
     margin-top: 1rem;
-    border-bottom: blue;
+    margin-bottom: 0.5rem;
 }
 
-.leftside {
+.rightside {
     height: 200px;
     width: 25%;
     float: right;
+    background-color: blue;
 }
 
 .central {
     height: 200px;
-    width: 50%;
+    width: 40%;
     background-color: orange;
     float: right;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.rightside {
+.leftside {
     height: 200px;
     width: 25%;
     background-color: blue;
