@@ -29,23 +29,37 @@ header {
     height: 40px;
     background-color: lightblue;
     margin-top: 1rem;
+    border-bottom: blue;
 }
 
 .leftside {
     height: 200px;
-    width: 150px;
-    background-color: blue;
-    float: left;
+    width: 25%;
+    float: right;
+}
+
+.central {
+    height: 200px;
+    width: 50%;
+    background-color: orange;
+    float: right;
 }
 
 .rightside {
     height: 200px;
-    width: 150px;
+    width: 25%;
     background-color: blue;
     float: right;
 }
 
 footer {
-    height: 200px;
+    height: 20px;
     background-color: violet;
+    margin-top: 0.5rem;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
